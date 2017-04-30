@@ -16,5 +16,12 @@ namespace Assignment3
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            OMDB main = new OMDB();
+            main.Show();
+        }
     }
 }
